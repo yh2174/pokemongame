@@ -4,67 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <title>Pokemon Game</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
-<body> 
-
+<body>
 <div id="main_frame">
-
     <div id="background"></div>
-
     <div id="ending">
         <p id="ending_text">You Won!!!</p>
         <img id="end_image">
         <a id="try_again" href="https://code.sololearn.com/W5944F7O7X0d/?ref=app">Try Again</a>
     </div>
-
     <div id="start_menu">
-
         <div id="starting_text">
             <p id="greetings"></p>
-
         </div>
         <br><a id="start_button" href="#">START</a>
-
     </div>
-
     <svg id="YvLandSvg" width="264px" height="77px">
         <ellipse cx="135" cy="25" rx="100" ry="25"
                  style="stroke:#c18605;
                            stroke-width:6px;
                            fill:#ffbf0f;"></ellipse>
     </svg>
-
     <div id="serena">
         <span class="text1">&nbsp;&nbsp;CHARIZARD&emsp;Lv&nbsp;70</span><br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<progress id="yvBar" max="400" value="400"></progress>
         <span class="text2">400/400</span>
     </div>
-
     <svg id="PikaLandSvg" width="264px" height="77px">
         <ellipse cx="135" cy="25" rx="100" ry="25"
                  style="stroke:#c18605;
                            stroke-width:6px;
                            fill:#ffbf0f;"></ellipse>
     </svg>
-
     <img id="charizard" src="https://i.imgur.com/wZ5ePZt.gif" alt="charizard">
     <img id="pikachu" src="https://i.imgur.com/gPPOQNE.gif" alt="pikachu">
     <img id="attack_img">
     <img id="serena_avatar" src="https://i.imgur.com/zzr5Ceh.png" alt="Serena Avatar">
-
     <div id="challenger">
         <span class="text3">&nbsp;&nbsp;PIKACHU&emsp;&emsp;&nbsp;&nbsp;Lv&nbsp;90</span><br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<progress id="pikaBar" max="350" value="350"></progress>
         <span class="text4">350/350</span>
     </div>
-
     <div id="main_box">
         <p id="textbox1" style="color:white;"></p>
     </div>
-
     <div id="main_menu">
         <p id="textbox2">
             <a id="fight" href="#">&nbsp;FIGHT</a>&emsp;&emsp;
@@ -72,7 +58,6 @@
             <a id="change_pokemon" href="#">CHANGE POKEMON</a>
         </p>
     </div>
-
     <div id="attack_menu">
         <p id="textbox3">
             <a id="attack1" href="#">Thunder Bolt</a>&emsp;&emsp;&emsp;&emsp;&nbsp;
@@ -81,7 +66,7 @@
             <a id="attack4" href="#">Volt Tackle</a>
         </p>
     </div>
-
 </div>
+<script src="script.js"></script>
 </body>
 </html>

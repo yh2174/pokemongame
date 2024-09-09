@@ -444,7 +444,7 @@ $(function () {
             $("#end_image").attr("src","https://i.imgur.com/Zjj9NcF.jpg");
             ending.css("z-index",9).css("opacity",0);
             $("#ending").css("background","black");
-            $("#ending_text").html(id==0?"다음에 다시 도전하세요!");
+            $("#ending_text").html(id==0? "다음에 다시 도전하세요!" : "");
 
             var intervalId = setInterval(function () {
                 i=i+0.1;

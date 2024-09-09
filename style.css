@@ -1,0 +1,317 @@
+#main_frame{
+    width:495px;
+    height:332px;
+    background-color: #000000;
+    position:relative;
+    transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    top:85px;
+    left:-75px;
+}
+
+#background{
+    background: black url("https://i.imgur.com/vU7Xdcv.png");
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+#start_menu{
+    background: #000000 url("https://i.imgur.com/MlDSOY8.jpg");
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 7;
+}
+
+#starting_text{
+    width: 56%;
+    height: 36%;
+    top: 40px;
+    margin:40px auto;
+    padding:5px 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: deeppink;
+    font-family: monospace;
+    text-align: center;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+    position: relative;
+    opacity: 0.7;
+    z-index:9;
+}
+
+#start_button{
+    background: red;
+    color: white;
+    padding: 10px 30px;
+    margin: 0 0 0 170px;
+    text-transform: uppercase;
+    transition: background,color,box-shadow 1s;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    right: 50px;
+    opacity: 0;
+}
+
+#start_button:hover{
+    padding: 12px 32px;
+    color: red;
+    background: white;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+
+}
+
+body {
+    font-family: sans-serif;
+    font-size:25px;
+    position:relative;
+    background-color:black;
+}
+
+#YvLandSvg {
+    position:absolute;
+    top:105px;
+    right:2px;
+    z-index:1;
+}
+
+#PikaLandSvg{
+    position:absolute;
+    top:206px;
+    z-index:1;
+}
+
+
+@keyframes slidingland{
+    from{right:-200px;}
+    to{ right:2px; }
+}
+
+#serena{
+    width:170px;
+    height:60px;
+    background-color: #ffcfec;
+    border:4px solid #ff307c;
+    border-radius:10px 2px 10px 2px;
+    position:absolute;
+    top:34px;
+    left:26px;
+    z-index:4;
+    box-shadow: 2px 4px 10px rgba(0,0,0,0.4);
+
+}
+
+
+#challenger {
+    width:180px;
+    height:60px;
+    background-color:#ffcfec;
+    border:4px solid #ff307c;
+    border-radius:10px 2px 10px 2px;
+    position:absolute;
+    right:26px;
+    bottom:107px;
+    z-index:4;
+    box-shadow: 2px 4px 10px rgba(0,0,0,0.4);
+
+}
+
+
+.text1,.text2,.text3{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.text2{
+    margin-left: 64px;
+}
+
+
+.text4{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 64px;
+}
+
+#yvBar,#pikaBar{
+    width:126px;
+    height:6px;
+    position: absolute;
+    background-color: #47fb59;
+    border:none;
+}
+
+@keyframes slidingpcl{
+    from{right:600px;}
+    to{right: 230px;}
+}
+
+#charizard{
+    width:150px;
+    height:150px;
+    position:absolute;
+    right:55px;
+    z-index:2;
+}
+
+#attack_img{
+    position: absolute;
+    z-index: 5;
+    opacity: 0;
+}
+
+@keyframes sliding{
+    from{right:-200px;}
+    to{ right:55px; }
+}
+
+#pikachu{
+    width:150px;
+    height:150px;
+    position: absolute;
+    top: 76px;
+    right:285px;
+    z-index:2;
+}
+
+#serena_avatar{
+    position: absolute;
+    top: 115px;
+    opacity:0;
+    z-index:2;
+}
+
+@keyframes slidingpc {
+    from{right:600px;}
+    to{right:286px;}
+}
+
+#main_box{
+    width: 483px;
+    height: 95px;
+    background-color: #ef325f;
+    border: 5px solid #ffcfec;
+    position: relative;
+    top: 226px;
+    z-index: 4;
+}
+
+#main_menu{
+    width: 178px;
+    height: 95px;
+    background-color: white;
+    position: absolute;
+    top: 231px;
+    left: 308px;
+    z-index: 0;
+    border-left: 6px solid rgba(0,0,0,.2);
+    border-bottom-left-radius: 20px;
+    border-top-left-radius:20px;
+}
+
+#attack_menu{
+    width: 483px;
+    height: 95px;
+    background-color: white;
+    border: 6px solid black;
+    position: absolute;
+    top: 226px;
+    z-index: 0;
+}
+
+#textbox1{
+    font-size: 16px;
+    margin:4px 0 0 4px;
+    padding:16px 0 0 8px;
+    border-radius:2px;
+}
+
+#textbox2{
+    font-size: 14px;
+    background-color:white;
+    margin:4px 0 0 4px;
+    padding:16px 0 0 8px;
+    border-radius:2px;
+}
+
+#textbox2 #fight{
+    margin-left: -1px;
+}
+
+
+#textbox3{
+    font-size: 18px;
+    margin-left: 80px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+#textbox3 #attack2{
+    padding-right: 25px;
+    padding-left:25px;
+}
+#textbox3 #attack3{
+    padding:5px 12px 5px 12px;
+}
+#textbox3 #attack4{
+    margin-left:-12px;
+    padding:5px 5px 5px 5px;
+}
+
+
+
+a {
+    text-decoration:none;
+    color:white;
+    font-weight: bold;
+    background: red;
+    padding:5px;
+    border-radius:10px;
+    transition: background 2s;
+}
+
+a:hover{
+    background: green;
+}
+
+#fight{
+    margin-left: 10px;
+}
+
+@keyframes fading{
+    from{opacity: 0.0;}
+    to{opacity: 1;}
+}
+
+#ending{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+#ending_text{
+    color: white;
+    font-size: 30px;
+    margin-left: 160px;
+}
+
+#try_again{
+    width: 140px;
+    height: 30px;
+    left: 160px;
+    bottom: 30px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5px;
+    background: #ff467d;
+    color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0);
+    position: fixed;
+}
+
+#end_image{
+    position: fixed;
+    left: 150px
+}
